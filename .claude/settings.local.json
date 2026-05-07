@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType File -Path \"d:\\\\doka-docs\\\\static\\\\img\\\\docs\\\\templates\\\\block-types\\\\cover_editor.png\" -Force)",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType File -Path \"d:\\\\doka-docs\\\\static\\\\img\\\\docs\\\\templates\\\\block-types\\\\cover_color_picker.png\" -Force)",
+      "Bash(New-Item -ItemType File -Path \"d:\\\\doka-docs\\\\static\\\\img\\\\docs\\\\templates\\\\block-types\\\\cover_preview.png\" -Force)",
+      "Bash(Write-Output \"Done\")"
+    ]
+  }
+}
